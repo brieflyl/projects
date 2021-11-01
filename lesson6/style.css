@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    background-color: rgb(163, 10, 10);
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.two{
+    background-color: rgb(10, 68, 36);
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.three{
+    background-color: rgb(67, 67, 150);
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.screen{
+    padding-top: 100px;
+}
+
+.screen2{
+    background-color: rgb(87, 167, 55);
+    height: 500px;
+}
+.left{
+    height: 200px;
+    width:33,3%;
+    background-color: rgb(163, 10, 10);
+    padding-top: 50px;
+    float:left;
+    text-align: center;
+}
+
+.center{
+    background-color: rgb(10, 68, 36);
+    padding-top: 50px;
+    height: 200px;
+    float:left;
+    text-align: center;
+}
+
+.right{
+    background-color: rgb(67, 67, 150);
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+}
+
+.yb{
+    background-color:yellow;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.gb{
+    background-color: grey;
+    width:50%;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    float:left;
+}
+
+.bb{
+    background-color: black;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.screen1{
+    padding-top: 100px;
+}
+
+.screen2{
+    padding-top: 100px;
+    background-color: rgb(173, 211, 135);
+    height:400px;
+}
+
+.rb{
+    margin-left: 175px;
+    padding: 50px;
+    background-color: rgb(163, 10, 10);
+    width:200px;
+    height: 200px;
+    text-align: center;
+    float:left;
+}
+
+.ggb{
+    margin-left: 175px;
+    padding: 50px;
+    background-color: rgb(10, 68, 36);
+    width:200px;
+    height: 200px;
+    text-align: center;
+    float:left;
+}
+
+.fb{
+    margin-left: 150px;
+    padding: 50px;
+    background-color: rgb(67, 67, 150);
+    width:200px;
+    height: 200px;
+    text-align: center;
+    float:left;
+}
