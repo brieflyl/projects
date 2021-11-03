@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(148, 132, 132);
+}
+
+h1{
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul > li{
+    font-size: 24;
+    padding: 10px;
+}
+ul > li:hover{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(105, 40, 165);
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header_inner{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_inner{
+    width: 100%;
+    display: flex;
+}
+
+.aside_left{
+    width: 30%;
+    height: 670px;
+    padding: 20px 40px;
+    background-color: yellow;
+}
+
+.aside_right{
+    width: 70%;
+    height: 670px;
+    padding: 25px;
+    background-color: rgb(112, 35, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article_image{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://wordpress-developer.pp.ua/wp-content/uploads/css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
