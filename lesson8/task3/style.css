@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(204, 203, 203);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: normal;
+}
+
+span:hover, li:hover{
+    font-size: 28px;
+}
+
+li{
+    padding: 15px 0;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper{
+    height: 100%;
+    overflow: hidden;
+}
+
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+title{
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+    color: rgb(19, 19, 71);
+}
+
+.font, .animation, .background{
+    margin-bottom: 40px;
+}
+
+.font_icons{
+    width:50%;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-color: rgb(19, 26, 53);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: width 2s;
+}
+
+.font_icons:hover{
+    width:100%;
+}
+
+.animation_block{
+    width:100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgb(19,36,53);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes fr_b {
+    0% {
+        transform: skew(20deg);
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+    100% {
+        transform: skew(20deg);
+    }
+} 
+
+.block_element{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 1px;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation: fr_b 3.5s infinite;
+}
+
+@keyframes fa-li {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+} 
+
+.fa-li1{
+    color: white;
+    animation: fa-li 1s infinite;
+}
+
+.background_image{
+    width: 1200px;
+    height: 200px;
+    background-image: url(https://static.probusiness.io/n/03/d/38097027_439276526579800_2735888197547458560_n.jpg);
+    background-size: contain;
+}
